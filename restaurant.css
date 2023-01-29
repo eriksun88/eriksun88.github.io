@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+  vertical-align: top;
+}
+body {
+  font: normal 100% Calibri, Arial, sans-serif;
+  font-size: 1em;
+  background-color: white;
+}
+h1 {
+  font-size: 1.5em;
+  color: rgb(38, 95, 202);
+}
+h3 {
+  color: rgb(38, 95, 202);
+}
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: white;
+  height: 150px;
+  text-align: center;
+}
+
+#homelogo {
+  margin-top: 1em;
+  height: 130px;
+}
+nav {
+  width: 100%;
+  background: repeat-x rgb(37, 130, 106);
+  text-align: center;
+}
+
+nav li,
+nav a,
+nav strong,
+nav span {
+  display: inline-block;
+  height: 28px;
+}
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  margin: 8px 0.3em 8px;
+  cursor: pointer;
+}
+nav a {
+  color: white;
+  line-height: 26px;
+  font-size: 1.2em;
+}
+
+nav span {
+  padding: 0 1em;
+}
+
+.public {
+  border: 2px solid white;
+  border-bottom: none;
+  border-radius: 4em 4em 0 0;
+  background-color: white;
+  overflow: hidden;
+  padding: 4%;
+}
+
+footer span {
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  margin: 0 1em;
+  color: rgb(37, 130, 106);
+}
+
+body,
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: white;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.public {
+  border: 2px solid whitesmoke;
+  border-bottom: none;
+  border-radius: 4em 4em 0 0;
+  background-color: whitesmoke;
+  overflow: hidden;
+  padding: 4%;
+}
+
+footer {
+  width: 100%;
+  background: repeat-x rgb(37, 130, 106);
+  color: rgb(243, 244, 248);
+  font-size: 1em;
+  text-align: center;
+}
+
+footer span {
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  margin: 0 1em;
+  color: whitesmoke;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#aboutUs,
+#cancellation {
+  margin: 6em 0;
+}
+input,
+textarea {
+  display: block;
+}
+.reservation {
+  padding-left: 25px;
+}
+iframe{
+  border: 0px;
+
+}

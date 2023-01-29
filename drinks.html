@@ -1,0 +1,109 @@
+<!--
+    BIT507-ass2-5051238
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Haukai Restaurant</title>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" type="text/css" href="./restaurant.css" >
+    <script src="showslides.js"></script>
+  </head>
+  <body onload="showSlides(1)">
+    <header>
+      <div class="wrap">
+        <a href="index.html">
+          <img
+            id="homelogo"
+            src="picture/11.png"
+            alt="restaurant logo"
+            title="restaurant"
+          >
+        </a>
+      </div>
+    </header>
+    <nav>
+      <u1>
+        <li class="active">
+          <a href="index.html"
+            ><strong><span>HOME</span></strong></a
+          >
+        </li>
+        <li class="active">
+          <a href="menus.html"
+            ><strong><span>MENUS</span></strong></a
+          >
+        </li>
+        <li class="active">
+          <a href="drinks.html"
+            ><strong><span> DRINKS</span></strong></a
+          >
+        </li>
+        <li class="active">
+          <a href="reservation.html"
+            ><strong><span>RESERVATIONS</span></strong></a
+          >
+        </li>
+        <li class="active">
+          <a href="aboutUs.html"
+            ><strong><span>ABOUT US</span></strong></a
+          >
+        </li>
+        <li class="active">
+          <a href="contact.html"
+            ><strong><span>CONTACT</span></strong></a
+          >
+        </li>
+      </u1>
+    </nav>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 2</div>
+        <p>
+          <iframe
+            src="./picture/menu1.pdf"
+            style="width: 100%; height: 1160px"
+          ></iframe>
+        </p>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 2</div>
+        <p>
+          <iframe
+            src="./picture/menu4.pdf"
+            style="width: 100%; height: 1160px"
+          ></iframe>
+        </p>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br>
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+
+    <footer>
+      <div class="wrap">
+        <span>© 2023 The Huakai Restaurant</span>
+        |
+        <a href="privacy.html"
+          ><span id="privacy" title="Privacy">Privacy Policy</span></a
+        >
+        |
+        <a href="terms.html"
+          ><span id="termsOfUse" title="Accessiblility">Terms of use</span></a
+        >
+        |
+        <a href="sitemap.html"
+          ><span id="siteMap" title="Site Map">Site Map</span></a
+        >
+        |
+      </div>
+    </footer>
+  </body>
+</html>
